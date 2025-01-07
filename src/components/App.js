@@ -1,5 +1,7 @@
 
 import React from "react";
+
+import { useState } from "react"
 import './../styles/App.css';
 
 const App = () => {
@@ -7,8 +9,8 @@ const App = () => {
   return (
     <div>
     
-    <h1> Button Clicked {count} Times
-    <button onClick={()=>setCount(count+1)}>Click me</button>
+<h1>{count} </h1>
+    <button onClick={()=>setCount(count+1)}>click me</button>
     </div>
   )
 }
