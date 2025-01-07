@@ -8,7 +8,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
     <h1>Button Clicked {count} Times</h1>
-    <button onClick={setCount}>Click me</button>
+    <button onClick={()=>setCount(count+1}>Click me</button>
     </div>
   )
 }
